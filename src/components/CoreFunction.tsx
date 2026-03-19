@@ -266,7 +266,7 @@ const CoreFunction = ({ keys }: CoreFunctionProps) => {
                     uint8ToBase64(output),
                 );
             }
-
+ 
             setFinished(true);
         } catch (err) {
             setInputError(
